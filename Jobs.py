@@ -12,6 +12,7 @@ def get_datetime():
 
 def get_server_instance():
     my_url = 'http://localhost:8080'
+    #my_url = "https://github.com/profmcdan/SeedstarPythonJenkins"
     server = Jenkins(my_url, username ='profmcdan', password ='dan9291@futa')
     return server
 
